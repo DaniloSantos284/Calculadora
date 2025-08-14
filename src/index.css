@@ -1,10 +1,17 @@
 :root {
-  font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
+  font-family: 'Roboto', sans-serif;  /* CSS Geral */
   font-synthesis: none;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   -webkit-text-size-adjust: 100%;
+
+  --bottom: linear-gradient(80deg #544D58, #524C59);
+  --white: #FEFDFF;   /* Paleta da calculadora */
+  --red: #A75E6E;
+  --black: #2A292E; 
+  --black-visor: #000301;
+
 }
 
 * {
